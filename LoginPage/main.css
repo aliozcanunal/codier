@@ -1,0 +1,39 @@
+div{
+    background-color: blue;
+    height: 300px;
+    width: 450px;
+    border: 15px solid white;
+    margin: 100;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+
+input,textarea{
+    
+    width: 442px;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+}
+
+.mybutton{
+    
+    height: 35px;
+    width: 100px;
+    background-color: goldenrod;
+    border-radius: 50px;
+    font-size: 15px;
+    
+}
+.mybutton2{
+    height: 35px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 50px;
+    font-size: 15px;
+    
+}
