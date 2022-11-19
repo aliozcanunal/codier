@@ -1,56 +1,131 @@
-body{
-    background-color: darkgray;
-
-    background: #D0E4F5 url("") no-repeat scroll 100% 0%;
-}
-
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 1000;
+*{
+    margin: 10;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
     
 }
-.navbar a {
-    float: left;
-    display: block;
-    color: #D0E4F5;
+.backimg{
+    background-image: url(thorhd.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: center;
+    top: 100px;
+    
+
+}
+
+
+.logoimg{    
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 15px;
+    left:35px;
+}  
+
+header{
+    position: sticky;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    position: sticky;    
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1px 10%;
+    background:rgba(10, 10, 10, 0.2);
+}
+.Logo{
+    position: sticky;
+    top: 15px;
+    left:25px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(39, 30, 30);
+    letter-spacing: 1.5px;
+    display: inline-block;
+    cursor: pointer;
+}
+.Logo:hover{
+    background-color: rgb(21, 15, 15);
+    transition: all 1s ease 0s;
+}
+
+nav li{
+   
+   display: inline-block;
+   list-style: none;
+   padding: 0px 20px;
+  
+}
+
+
+a,nav li{
+    color:#f2f3f4;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    position: static;
+    font-weight: bold;
+    
+
+}
+
+
+nav li ab:hover{
+    
+    color: #1e4eac;
+    transition: all 0.8s ease 0s;
+
+}
+
+.container {
+    padding-top: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    color: white;
+    font-weight: 50px;
+}
+  
+.info {
+    width: 290%;
+  }
+.info h1 {
     text-align: center;
-    padding: 14px 16px ;
-    text-decoration: none;
-    font-size: 40px;
+    font-size: 25px;
+    margin-bottom: 1000px;
 }
-
-.navbar a:hover{
-    background: #ddd;
-    color:black;
+  
+.info p {
+    line-height: 100px;
+    font-size: 50px;
 }
-
-div{
-    background: #224157;
-    background: -moz-linear-gradient(left, #1e435c 0%, #772ACB 51%, #144E75 100%);
-    background: -webkit-linear-gradient(left, #1d435c 0%, #534463 51%, #144E75 100%);
-    background: linear-gradient(to right, #1C6EA4 0%, #772ACB 51%, #144E75 100%);
-    
-
-
+  
+blockquote {  
+    font-family: Georgia, serif;
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em;
 }
-
-h1{
-    margin-top: 100px;
-    margin-bottom: 10px;
-    color: #D0E4F5;
+  
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 4em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
 }
-
-
-footer{
-    background: #0E152A no-repeat scroll 50% 100% ;
-    background: -moz-linear-gradient(left, #0E152A 0%, #3B1565 51%, #144E75 100%);
-    background: -webkit-linear-gradient(left, #0E152A 0%, #3B1565 51%, #144E75 100%);
-    background: linear-gradient(to right, #0E152A 0%, #3B1565 51%, #144E75 100%);
-    color: aliceblue;
-    
+blockquote:after {
+    position: absolute;
+    font-family: Georgia, serif;
+    font-size:4em;
+    float:right;
+    right:0;
+    line-height: 1;
+    content: "\201D";
+    bottom:-0.5em;
     
 }
