@@ -41,8 +41,8 @@ body {
 }
 
 .header a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: rgb(246, 5, 5);
+  color: rgb(255, 255, 255);
 }
 
 .header a.active {
@@ -65,98 +65,121 @@ body {
     float: none;
   }
 }
-.paragraph h1{
-  position: absolute;
-  top: 185px;
-  left: 40px;
-  font-size: 30px;
-  font-weight: bold;
-  color: #ddd;  
-}
-.paragraph p{
-  display: inline-block;
-  position: absolute;
-  top:225px;
-  left: 45px;
-  width: 350px;
-  color: #ddd;
-}
+
 blockquote {
+  font-size: 12px;
   margin: 0;
   width: 300px;
+  right: 20px;  
 }
 
 blockquote p {
-  padding: 15px;
-  background: #eee;
+  padding: 15px;  
   border-radius: 5px;
+  background: linear-gradient(#bdc3c7,#151617);
+  text-align: center;
+  font-weight: bold;
 }
 
 blockquote p::before {
-  content: '\201C';
+  content: '\201D';
 }
 
 blockquote p::after {
   content: '\201D';
 }
 
-figcaption{
-  position: absolute;
-  top: 300px;
-  right: 20px;
-  color: #ddd;
-  display: inline-block;
-}
+
 #ironmansvg{
   position: absolute;
-  top:300px;
-  right: 175px;
+  left: 300px;
 }
-#thorjpg{
+#thorsvg{
   position: absolute;
-  top: 170px;
-  left:125px;
+  left: 600px;
 }
+#hulksvg{
+  position: absolute;
+  left: 900px;
+}
+
+#thanossvg{
+  position: absolute;
+  right: 900px;
+}
+#hawkeyesvg{
+  position: absolute;
+  right: 600px;
+}
+#captainsvg{
+ position: absolute;
+ right: 300px;
+}
+
+blockquote:hover:after,blockquote:hover:before 
+{  
+  background-color: rgb(218, 25, 25); 
+  transition: all 350ms;  
+  -o-transition: all 350ms;  
+  -moz-transition: all 350ms;  
+  -webkit-transition: all 350ms; 
+}  
+
+
+
 .thor{
   position: absolute;
-  top:200px;
-  left:20px;
-  font-size: 15px;
-  width: 150px;
+  top:400px;
+  right:20px;
+  width: 300px;
+  
 }
 .iron{
   position:absolute;
-  top:200px;
+  top:500px;
   right:20px;
-  font-size: 30px;
+  width: 200px;  
+  
 }
-.hulk{
+.hulk{  
   position:absolute;
-  top:200px;
-  right:20px;
-  font-size: 30px;
+  top:600px;
+  right: 20px;  
+  width: 200px;
 }
 .thanos{
   position:absolute;
-  top:200px;
-  right:20px;
-  font-size: 30px;
+  top:300px;
+  right:20px;  
 }
-.blackwidow{
+
+.hawkeye{  
   position:absolute;
-  top:200px;
+  top:700px;
   right:20px;
-  font-size: 30px;
+  width: 300px;
 }
-.hawkeye{
+.captain{  
   position:absolute;
-  top:600px;
+  top:800px;
   right:20px;
-  font-size: 30px;
+  width: 500px;
 }
-.captain{
-  position:absolute;
-  top:400px;
-  right:20px;
-  font-size: 30px;
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background :linear-gradient(#bdc3c7,#151617);
+  padding: 10px;
+
+}
+
+.quote figcaption,.quote blackquote{
+  margin: 1em;
+}
+
+.footer {
+  background: rgb(67,67,67);
+  background: linear-gradient(0deg, rgba(67,67,67,1) 0%, rgba(255,255,255,1) 55%);
 }
