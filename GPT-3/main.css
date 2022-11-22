@@ -1,0 +1,93 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 5571px;
+    background: #040c18;
+    margin: 0 0 135px 135px
+}
+.navbar{
+    position: absolute;
+    width: 1169.34px;
+    height: 58px;
+    left: 135.66px;
+    top:55px;
+}
+.navbar a{
+    display: inline-block;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color:aliceblue;
+}
+.signbar{
+    position: absolute;
+    width: 235px;
+    height: 58px;
+    left: 1270px;
+    top: 55px;
+}
+.signbar a{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: aliceblue;
+    background: #FF4820;
+    border-radius: 5px;
+}
+.heading{
+    position: absolute;
+    width: 614px;
+    height: 225px;
+    left:138px;
+    top:216px;
+    color: aliceblue;
+
+}
+.heading h1{
+    font-size: 62px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 75px;
+    color: aliceblue;
+    left: 138px;
+}
+.heading p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.32px;
+    color: aliceblue;
+}
+.rectangle{
+    position: absolute;
+    width: 456px;
+    height: 73px;
+    left: 138px;
+    top:624px;
+    background: #052D56;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.rectangle2 {
+    position: absolute;
+    width: 174px;
+    height: 73px;
+    left: 594px;
+    top: 624px;
+    background: #FF4820;    
+    border-radius: 5px 0px 0px 5px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.email{
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 624px;
+    left: 138px;
+    width: 456px;
+    height: 73px;
+    font-size: 30px;
+    font-weight: 800;
+}
