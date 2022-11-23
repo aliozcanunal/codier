@@ -3,7 +3,8 @@ body{
     width: 1440px;
     height: 5571px;
     background: #040c18;
-    margin: 0 0 135px 135px
+    margin: 0 0 135px 135px;
+    display: flex;
 }
 .navbar{
     position: absolute;
@@ -53,12 +54,17 @@ body{
     line-height: 75px;
     color: aliceblue;
     left: 138px;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
 }
 .heading p{
     font-size: 20px;
     font-weight: 400;
     line-height: 27.32px;
-    color: aliceblue;
+    color: #81AFDD;
 }
 .rectangle{
     position: absolute;
@@ -70,16 +76,6 @@ body{
     border-radius: 5px 0px 0px 5px;
 }
 
-.rectangle2 {
-    position: absolute;
-    width: 174px;
-    height: 73px;
-    left: 594px;
-    top: 624px;
-    background: #FF4820;    
-    border-radius: 5px 0px 0px 5px;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-}
 .email{
     background: transparent;
     border: none;
@@ -90,4 +86,192 @@ body{
     height: 73px;
     font-size: 30px;
     font-weight: 800;
+    color: aliceblue;
+    padding-left: 20px;
 }
+.start{
+    position: absolute;
+    top: 624px;
+    left: 594px;
+    width: 174px;
+    height: 73px;
+    font-size: 30px;
+    font-weight: 800;
+    background: #FF4820;    
+    border: none;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    color: aliceblue;
+}
+.start:hover{
+    background: #052D56;
+    transition: 0.7s ;
+
+}
+.signup p{
+    position: absolute;
+    width: 581px;
+    height: 37px;
+    left: 333px;
+    top: 736px;
+    color: #fff;
+}
+
+.rectangle2{
+    position: absolute;
+    width: 1170px;
+    height: 695px;
+    left: 135px;
+    top: 1044px;
+    background: #143465;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    color: white;
+}
+
+.main h1{
+
+    position: absolute;
+    top: 57px;
+    left: 61px;
+    width: 200px;
+    height: 75px;
+    
+    color: #fff;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    }
+.main p{
+    position: absolute;
+    top: 74px;
+    right: 73px;
+    width:731px;
+
+    font-size: 16px;
+    line-height: 30px;
+    color: #81AFDD;
+}
+
+.main1 h1{
+    position: absolute;
+    top: 257px;
+    left: 61px;
+    width: 472px;
+    height: 90px;
+    
+    color: #fff;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    letter-spacing: -0.04em;
+
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+
+
+}
+
+.main1 p{
+    position: absolute;
+    top: 272px;
+    right: 55px;
+    width:143px;
+
+    font-size: 16px;
+    line-height: 30px;
+    color: #FF8A71;
+
+}
+
+.main2 h1{
+    position: absolute;
+    top: 439px;
+    left: 57px;
+    width: 105px;
+    height: 75px;
+    
+    color: #fff;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+
+}
+
+.main2 p{
+    position: absolute;
+    top: 540px;
+    left: 57px;
+    width:334px;
+
+    font-size: 16px;
+    line-height: 30px;
+    color: #81AFDD;
+}
+
+
+.main3 h1{
+    position: absolute;
+    top: 439px;
+    left: 392px;
+    width: 105px;
+    height: 75px;
+    
+    color: #fff;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+
+
+}
+
+.main3 p{
+    position: absolute;
+    top: 540px;
+    left: 392px;
+    width:334px;
+
+    font-size: 16px;
+    line-height: 30px;
+    color: #81AFDD;
+    
+}
+
+.main4 h1{
+    position: absolute;
+    top: 439px;
+    left: 768px;
+    width: 105px;
+    height: 75px;
+    
+    color: #fff;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+
+}
+.main4 p{
+    position: absolute;
+    top: 540px;
+    left: 768px;
+    width:334px;
+
+    font-size: 16px;
+    line-height: 30px;
+    color: #81AFDD;
+
+}
+
