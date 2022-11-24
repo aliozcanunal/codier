@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Manrope";
+    src: url(fonts/Manrope/Manrope-Bold.ttf/Manrope.ttf);
+    src: url(/fonts/Manrope/Manrope-Bold.ttf);
+    src:url(/fonts/Manrope/Manrope-VariableFont_wght.ttf)
+}
+
 body{
     position: relative;
     width: 1440px;
@@ -5,6 +12,7 @@ body{
     background: #040c18;
     margin: 0 0 135px 135px;
     display: flex;
+    font-family: "Manrope-Bold.ttf";
 }
 .navbar{
     position: absolute;
@@ -65,7 +73,16 @@ body{
     font-weight: 400;
     line-height: 27.32px;
     color: #81AFDD;
+    
 }
+.headerillus{
+    position: absolute;
+    width: 667.41px;
+    height: 701.59px;
+    left: 747.91px;
+    top: 0px;
+}
+
 .rectangle{
     position: absolute;
     width: 456px;
@@ -118,13 +135,15 @@ body{
 
 .rectangle2{
     position: absolute;
-    width: 1170px;
+    width: 1154px;
     height: 695px;
     left: 135px;
     top: 1044px;
     background: #143465;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     color: white;
+    letter-spacing: -0.04em;
+    
 }
 
 .main h1{
@@ -135,8 +154,7 @@ body{
     width: 200px;
     height: 75px;
     
-    color: #fff;
-    font-style: normal;
+    
     font-weight: 800;
     font-size: 24px;
     line-height: 75px;
@@ -157,10 +175,9 @@ body{
     position: absolute;
     top: 257px;
     left: 61px;
-    width: 472px;
-    height: 90px;
-    
-    color: #fff;
+    width: 182px;
+    height: 48px;
+
     font-style: normal;
     font-weight: 800;
     font-size: 34px;
@@ -173,10 +190,6 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
-
-
-
 }
 
 .main1 p{
@@ -184,6 +197,7 @@ body{
     top: 272px;
     right: 55px;
     width:143px;
+    height: 92px;
 
     font-size: 16px;
     line-height: 30px;
@@ -196,7 +210,7 @@ body{
     top: 439px;
     left: 57px;
     width: 105px;
-    height: 75px;
+    height: 48px;
     
     color: #fff;
     font-style: normal;
@@ -212,6 +226,7 @@ body{
     top: 540px;
     left: 57px;
     width:334px;
+    height: 92px;
 
     font-size: 16px;
     line-height: 30px;
@@ -224,7 +239,7 @@ body{
     top: 439px;
     left: 392px;
     width: 105px;
-    height: 75px;
+    height: 48px;
     
     color: #fff;
     font-style: normal;
@@ -233,7 +248,6 @@ body{
     line-height: 75px;
     letter-spacing: -0.04em;
 
-
 }
 
 .main3 p{
@@ -241,6 +255,7 @@ body{
     top: 540px;
     left: 392px;
     width:334px;
+    height: 92px;
 
     font-size: 16px;
     line-height: 30px;
@@ -253,7 +268,7 @@ body{
     top: 439px;
     left: 768px;
     width: 105px;
-    height: 75px;
+    height: 48px;
     
     color: #fff;
     font-style: normal;
@@ -268,10 +283,251 @@ body{
     top: 540px;
     left: 768px;
     width:334px;
+    height: 92px;
 
     font-size: 16px;
     line-height: 30px;
     color: #81AFDD;
 
 }
+
+.feature1{
+    color: #fff;
+
+
+}
+
+
+
+.main5 h1{
+
+    position: absolute;
+    top: 1940px;
+    left: 140px;
+    width: 426px;
+    height: 180px;
+    
+    
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+    letter-spacing: -0.04em;
+
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    }
+.main5 p{
+    position: absolute;
+    top: 2154px;
+    left:140px;
+    width:271px;
+    height: 30px;
+
+    font-size: 16px;
+    line-height: 30px;
+    color: #FF8A71;
+}
+
+.main6 h1{
+    position: absolute;
+    top: 1955px;
+    left: 704px;
+    width: 182px;
+    height: 48px;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 45px;
+    letter-spacing: -0.04em;
+}
+
+.main6 p{
+    position: absolute;
+    top: 1943px;
+    left: 960px;
+    width:334px;
+    height: 92px;
+
+    font-size: 14px;
+    line-height: 30px;
+    color: #81AFDD;
+
+}
+
+.main7 h1{
+    position: absolute;
+    top: 2067px;
+    left: 704px;
+    width: 145px;
+    height: 48px;
+    
+    color: #fff;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    
+
+}
+
+.main7 p{
+    position: absolute;
+    top: 2055px;
+    left: 960px;
+    width:334px;
+    height: 92px;
+
+    font-size: 14px;
+    line-height: 30px;
+    color: #81AFDD;
+}
+
+
+.main8 h1{
+    position: absolute;
+    top: 2179px;
+    left: 704px;
+    width: 157px;
+    height: 48px;
+    
+    color: #fff;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+
+}
+
+.main8 p{
+    position: absolute;
+    top: 2167px;
+    left: 960px;
+    width:334px;
+    height: 92px;
+
+    font-size: 14px;
+    line-height: 30px;
+    color: #81AFDD;
+    
+}
+
+.main9 h1{
+    position: absolute;
+    top: 2291px;
+    left: 704px;
+    width: 151px;
+    height: 48px;
+    
+    color: #fff;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+
+}
+.main9 p{
+    position: absolute;
+    top: 2279px;
+    left: 960px;
+    width:334px;
+    height: 92px;
+
+    font-size: 14px;
+    line-height: 30px;
+    color: #81AFDD;
+
+
+}
+
+.feature2{
+    position: absolute;
+    width: 1044px;
+    height: 607.53px;
+    left: 177px;
+    top: 2416px;
+
+}
+.featureimg{
+    position: absolute;
+    width: 546px;
+    height: 607.53px;
+}
+
+.content{
+    position: absolute;
+    width: 479px;
+    height: 334px;
+    left: 595px;
+    top:249px
+
+}
+.main11 h1{
+    position: absolute;
+    width: 426px;
+    height: 90px;
+    top:0px;
+    left: 0px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #71E5FF;
+    
+}
+.main11 h2{
+    position: absolute;
+    width: 426px;
+    height: 90px;
+    top:274px;
+    left: 0px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FF8A71;
+}
+
+.main10 h1{
+    position: absolute;
+    width: 426px;
+    height: 90px;
+    top: 10px;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%), #FFFFFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+
+}
+.main10 p{
+    position: absolute;
+    width:479px;
+    height: 120px;
+    top: 153px;
+
+    font-style: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #81AFDD;
+}
+
+
+
+
+
+
 
