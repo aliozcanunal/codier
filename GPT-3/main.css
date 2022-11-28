@@ -2,48 +2,83 @@ body{
     position: relative;
     width: 1440px;
     height: 5571px;
-    width: 133%;
     background: #040c18;
-    margin: auto;
-    position: relative;
     font-family: 'Manrope', sans-serif;
     
+    transform: scale(1.3);
+    transform-origin: 0 0;
 
 
 }
 .navbar{
     position: absolute;
     display: flex;
-    justify-content: space-around;
-    width: 1169.34px;
-    height: 58px;
-    left: 135.66px;
-    top:55px;
+    justify-content: space-evenly;
+
+
+    width: 566.34px;
+    height: 25px;
+    left: 255.66px;
+    top:71px;
 }
-.navbar a{
-    display: inline-block;
-    text-align: center;
+.navbar a{          
+
+
     font-weight: 500;
     font-size: 18px;
     color:aliceblue;
+    text-decoration: none;
 }
+
+.navbar a:hover{
+    background-color: #F49867;
+}
+
+.navbarimg{
+    position: absolute;
+    left: 130px;
+    top: 75px;
+}
+
 .signbar{
     position: absolute;
-    width: 235px;
-    height: 58px;
-    left: 1270px;
-    top: 55px;
+    top: 71px;
+    left: 1070px;
+    width: 200px;
+    height: 125px;
+
+    display: flex;
+    font-size: 18px;
+    color: white;
     
 }
 .signbar a{
-    text-align: center;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    color: aliceblue;
-    background: #FF4820;
-    border-radius: 5px;
+    color: white;
+    top: 1;
 }
+.group1{
+    position: absolute;
+    left: 83px;
+    width: 152px;
+    height: 58px;
+    top: -12px;
+
+    background-color: rgb(255, 0, 0);
+}
+
+.up{
+    position: absolute;
+    left: 45.02px;
+    top: 16px;
+    border: none;
+    border-radius: 10px 10px;
+
+}
+
+
+
+
+
 .heading{
     position: absolute;
     width: 614px;
@@ -66,7 +101,8 @@ body{
     
 }
 .heading p{
-
+    position: absolute;
+    
     font-size: 20px;
     font-weight: 400;
     line-height: 27.32px;
@@ -87,39 +123,42 @@ body{
     height: 73px;
     left: 138px;
     top:624px;
-    background: #052D56;
     border-radius: 5px 0px 0px 5px;
 }
 
 .email{
-    background: transparent;
-    border: none;
     position: absolute;
-    top: 624px;
-    left: 138px;
+    top: 0px;
+    left: 0px;
     width: 456px;
     height: 73px;
     font-size: 30px;
     font-weight: 800;
     color: aliceblue;
     padding-left: 20px;
+    background-color: #052D56;
+    border: none;
+    border-radius: 10px 10px;
 }
 .start{
     position: absolute;
-    top: 624px;
-    left: 594px;
+    top: 0px;
+    left: 456px;
     width: 174px;
-    height: 73px;
+    height: 75px;
     font-size: 30px;
     font-weight: 800;
     background: #FF4820;    
     border: none;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 0px 10px 10px 0px;
     color: aliceblue;
+
+    font-size: 20px;
 }
 .start:active{
-    background: #052D56;
-    transition: 0.1s ;
+    background-color: #fff;
+    transition: 0.5s ease-in 0.5s ease-out 0.5s;
+    color: black;
 
 }
 .signup p{
@@ -780,14 +819,6 @@ body{
 
 }
 
-
-
-
-
-
-
-
-
 .group102{
     position: absolute;
     width: 327.34px;
@@ -867,12 +898,137 @@ body{
     background-color: #042C54;
 
 }
-.footer h1{
+.footer{
     position: absolute;
-    bottom: 0;
-    right: 0px;
-    width: 1440px;
+    top: 4621px;
+    left: 0px;
+    width: 1459px;
     height: 950px;
 
-    background-color: #031B34;
+   background-color: #031B34;
+   color: rgb(255, 255, 255);
+}
+
+.footer h1{
+    position: absolute;
+    left: 310px;
+    bottom: 625px;
+    width: 821px;
+    height: 150px;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: -0.04em;
+
+
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.footer h2{
+    position: absolute;
+    left: 630px;
+    bottom: 27px;
+    width: 180px;
+    height: 15px;
+
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: -0.04em;
+
+}
+
+.footer button{
+    position: absolute;
+    left: 612px;
+    top: 389px;
+    width: 174px;
+    height: 22px;
+  
+    
+    
+    
+    font-size: 18px;
+    line-height: 21px;
+
+}
+.footermenu a{
+    color: white;
+    text-decoration: none;
+}
+.footermenu a:hover{
+    background-color: rgb(77, 67, 67);
+}
+.footermenu a:active{
+    background-color: #FF4820;
+    color: white;
+}
+.links{
+    position: absolute;
+    bottom: 125px;
+    left: 611px;
+    width: 110px;
+    height: 191px;
+
+}
+.links a{
+    font-size: 14px;
+    display: block;
+    padding: 10px 10px;
+
+}
+
+.company{
+    position: absolute;
+    bottom: 166px;
+    left: 845px;
+    width: 200px;
+    height: 150px;
+
+}
+.company a{
+    font-size: 14px;
+    display: block;
+    padding: 10px 10px;
+
+
+}
+
+
+.getinTouch{
+    position: absolute;
+    bottom: 144px;
+    right: 205px;
+    width: 116px;
+    height: 172px;
+
+}
+.getinTouch a{
+    font-size: 14px;
+    display: block;
+    padding: 10px 10px;
+
+
+}
+
+.logo{
+    position: absolute;
+    bottom: 226px;
+    left: 206px;
+    width: 168px;
+    height: 85px;
+}
+.logo p{
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 25px;
 }
